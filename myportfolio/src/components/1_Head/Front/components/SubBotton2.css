@@ -1,0 +1,35 @@
+.handShake {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.handShake button {
+  border-radius: 50%;
+  border: none;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-image: url("handshake.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: 70%;
+  background-color: #f0ca7e;
+}
+
+.handShake span {
+  color: white;
+  width: 60px;
+  display: block;
+  font-weight: 600;
+}
+/*# sourceMappingURL=SubBotton2.css.map */

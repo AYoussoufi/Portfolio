@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  width: 100vmax;
+}
+/*# sourceMappingURL=App.css.map */
