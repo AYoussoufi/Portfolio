@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+
 .handShake {
   display: flex;
   align-items: center;
@@ -14,12 +16,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: 70%;
-    background-color: rgb(240, 202, 126);
+    background-color: #fab005;
   }
   span {
     color: white;
     width: 60px;
     display: block;
-    font-weight: 600;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Tajawal";
   }
 }

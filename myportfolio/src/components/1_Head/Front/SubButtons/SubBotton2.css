@@ -1,4 +1,5 @@
-.pdfFile {
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+.handShake {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,24 +12,27 @@
           flex-direction: column;
 }
 
-.pdfFile button {
+.handShake button {
   border-radius: 50%;
   border: none;
   margin-top: 10px;
   width: 50px;
   height: 50px;
   cursor: pointer;
-  background-image: url("pdf-file.png");
+  background-image: url("handshake.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 60%;
-  background-color: #f0ca7e;
+  background-size: 100%;
+  background-size: 70%;
+  background-color: #fab005;
 }
 
-.pdfFile span {
+.handShake span {
   color: white;
-  width: 90px;
+  width: 60px;
   display: block;
-  font-weight: 600;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Tajawal";
 }
-/*# sourceMappingURL=SubBotton.css.map */
+/*# sourceMappingURL=SubBotton2.css.map */
