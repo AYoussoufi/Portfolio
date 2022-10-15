@@ -1,0 +1,61 @@
+.SkillBar {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.SkillBar .SkillName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 40%;
+  font-weight: 600;
+  color: #fab005;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.SkillBar .SkillChartBar {
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SkillBar .SkillChartBar .barcontainer {
+  border: solid 1px white;
+  width: 90%;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #fab0054d;
+}
+
+.SkillBar .SkillChartBar .barcontainer .bar {
+  border-radius: 5px;
+  height: 100%;
+  background-color: #fab005;
+}
+/*# sourceMappingURL=SkillBar.css.map */
