@@ -5,6 +5,7 @@ import Skills from "./components/3_Skills/Skills";
 import Projects from "./components/4_Projects/Projects";
 import Experience from "./components/5_Experience/Experience";
 import Contact from "./components/6_Contact/Contact";
+import { useState, useRef } from "react";
 
 function App() {
   return (

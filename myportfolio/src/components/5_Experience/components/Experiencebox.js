@@ -1,9 +1,29 @@
 import React from "react";
 import "./experiencebox.css";
+import { useState, useRef } from "react";
 
 export default function Experiencebox(props) {
+  const exper = useRef();
+  const [experMove, setExperMove] = useState(false);
+
+  const expMove = () => {
+    if (exper.current) {
+      if (exper.current.offsetTop - window.scrollY <= 940) {
+        setExperMove(true);
+        console.log(props.percentage);
+      } else {
+        setExperMove(false);
+      }
+    }
+  };
+
+  window.addEventListener("scroll", expMove);
   return (
-    <div className="experiencebox">
+    <div
+      className="experiencebox"
+      ref={exper}
+      style={{ marginTop: experMove ? "0px" : "100px" }}
+    >
       <div className="titlebox">
         <div style={{ fontSize: "1em" }}>{props.date}</div>
         <div style={{ fontSize: "1.6em" }}>{props.entreprise}</div>

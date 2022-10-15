@@ -16,7 +16,8 @@ export default function Contact() {
             <div className="littleTitle">Feel Free</div>
             <div className="inputcontainer">
               <img src={user}></img>
-              <input type="text" placeholder="Name"></input> {/* NAME */}
+              <input type="text" placeholder="Name or Company"></input>{" "}
+              {/* NAME */}
             </div>
             <div className="inputcontainer">
               <img src={mail}></img>

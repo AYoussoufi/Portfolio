@@ -69,6 +69,8 @@
   font-size: 0em;
   color: white;
   position: relative;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .Projects .container .projectholder .project:hover {
