@@ -11,7 +11,7 @@ export default function SkillBar(props) {
 
   const barMove = () => {
     if (barElement.current) {
-      if (barElement.current.offsetTop - window.scrollY <= 940) {
+      if (window.scrollY >= 295) {
         setBarMove(true);
       } else {
         setBarMove(false);

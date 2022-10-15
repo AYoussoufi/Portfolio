@@ -12,7 +12,6 @@ export default function Projects(props) {
     if (project.current) {
       if (window.scrollY <= 1070) {
         setProjectMove(true);
-        console.log(props.percentage);
       } else {
         setProjectMove(false);
       }

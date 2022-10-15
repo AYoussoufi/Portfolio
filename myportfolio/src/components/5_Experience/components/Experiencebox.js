@@ -8,9 +8,8 @@ export default function Experiencebox(props) {
 
   const expMove = () => {
     if (exper.current) {
-      if (exper.current.offsetTop - window.scrollY <= 940) {
+      if (window.scrollY >= 2980) {
         setExperMove(true);
-        console.log(props.percentage);
       } else {
         setExperMove(false);
       }

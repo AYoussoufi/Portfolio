@@ -45,6 +45,14 @@
       grid-template-columns: 50% 50%;
   -ms-grid-rows: 20% 80%;
       grid-template-rows: 20% 80%;
+  position: relative;
+}
+
+.Contact .ContactForm .container .loadingScreen {
+  width: 100%;
+  height: 0%;
+  background-size: cover;
+  position: absolute;
 }
 
 .Contact .ContactForm .container .title {
