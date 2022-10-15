@@ -1,0 +1,38 @@
+.experiencebox {
+  display: flex;
+  border-radius: 15px;
+  height: 200px;
+  width: 70%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 20px;
+  overflow: hidden;
+  .titlebox {
+    width: 20%;
+    height: 100%;
+    background-color: #fab005;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+  }
+  .descrbox {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    flex-direction: column;
+    .titledsc {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 1.5em;
+      height: 30%;
+    }
+    .textdsc {
+      height: 70%;
+    }
+  }
+}

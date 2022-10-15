@@ -1,0 +1,183 @@
+.Contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  height: 800px;
+  background-image: url("map.png");
+}
+
+.Contact .ContactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Contact .ContactForm .container {
+  height: 500px;
+  width: 700px;
+  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 20% 80%;
+      grid-template-rows: 20% 80%;
+}
+
+.Contact .ContactForm .container .title {
+  font-weight: 600;
+  font-size: 2em;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fab005;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+}
+
+.Contact .ContactForm .container .myInfo {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 110px;
+}
+
+.Contact .ContactForm .container .myInfo .littleTitle {
+  font-weight: 300;
+  font-size: 1.1em;
+  font-family: "Arial";
+  margin: 10px;
+  color: #fab005;
+}
+
+.Contact .ContactForm .container .myInfo .desc {
+  font-weight: 450;
+  padding-left: 10px;
+}
+
+.Contact .ContactForm .container form {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contact .ContactForm .container form .littleTitle {
+  font-weight: 300;
+  font-size: 1.1em;
+  font-family: "Arial";
+  margin: 10px;
+  color: #fab005;
+}
+
+.Contact .ContactForm .container form .inputcontainer {
+  width: 200px;
+  height: 30px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 20px;
+  margin: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contact .ContactForm .container form .inputcontainer img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.Contact .ContactForm .container form .inputcontainer input {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 70%;
+}
+
+.Contact .ContactForm .container form textarea {
+  border-bottom: 1px #dcdddd;
+  border-style: none none solid none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 120px;
+  outline: none;
+  width: 200px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-writing-mode: horizontal-tb !important;
+      -ms-writing-mode: lr-tb !important;
+          writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  resize: none;
+  font-family: inherit;
+}
+
+.Contact .ContactForm .container form input[type="submit"] {
+  margin-top: 10px;
+  border: none;
+  width: 150px;
+  height: 25px;
+  background-color: #fab005;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+/*# sourceMappingURL=Contact.css.map */

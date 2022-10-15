@@ -19,8 +19,8 @@ export default function About() {
               both layers <b>FrontEnd</b> and <b>BackEnd.</b>
               <br></br>I was once in the construction field I learned how to
               build houses and bridges, manage the site, and more things that I
-              still use right now in my development process, it's like changing
-              from building in real life to a virtual.<br></br>
+              still use it right now in my development process, it's like
+              changing from building in real life to virtual.<br></br>
               and since I'm a curious person I specialize in both fields
               frontEnd and backEnd to satiate my knowledge.
             </span>

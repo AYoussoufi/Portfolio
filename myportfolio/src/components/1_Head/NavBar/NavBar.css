@@ -12,6 +12,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
+  min-width: 1300px;
   height: 50px;
   background: transparent;
   position: fixed;
