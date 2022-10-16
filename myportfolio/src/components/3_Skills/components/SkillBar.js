@@ -11,10 +11,7 @@ export default function SkillBar(props) {
     const window_top = $(window).scrollTop();
     const div_top = $(".boxskills").offset().top;
 
-    if (
-      div_top - window_top - $(window).innerHeight() <= -100 ||
-      window.innerWidth < 800
-    ) {
+    if (div_top - window_top - $(window).innerHeight() <= -100) {
       setBarMove(true);
     } else {
       setBarMove(false);

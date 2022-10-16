@@ -97,4 +97,57 @@
 .About .aboutbox .textbox div b {
   color: #fab005;
 }
+
+@media screen and (max-width: 1050px) {
+  .About .aboutbox {
+    width: 800px;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .About .aboutbox {
+    width: 650px;
+    height: 400px;
+  }
+  .About .aboutbox .title {
+    font-size: 25px;
+  }
+  .About .aboutbox .textbox {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .About .aboutbox {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 70px 10px 100px;
+        grid-template-rows: 70px 10px 100px;
+    width: 300px;
+    height: 270px;
+  }
+  .About .aboutbox .title {
+    font-size: 15px;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    height: 20px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+  .About .aboutbox .imagebox img {
+    width: 50px;
+  }
+  .About .aboutbox .textbox {
+    font-size: 10px;
+    height: 10px;
+  }
+  .About .aboutbox .textbox div {
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+  }
+}
 /*# sourceMappingURL=About.css.map */

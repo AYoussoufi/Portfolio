@@ -30,11 +30,11 @@ export default function NavBar() {
       style={{ background: navbar ? "#FAB005" : "transparent" }}
     >
       <div className="buttonsbox">
-        <NavButton name="About"></NavButton>
-        <NavButton name="Skills"></NavButton>
-        <NavButton name="Projects"></NavButton>
-        <NavButton name="Experience"></NavButton>
-        <NavButton name="Contact"></NavButton>
+        <NavButton name="About" classNm="About"></NavButton>
+        <NavButton name="Skills" classNm="Skills"></NavButton>
+        <NavButton name="Projects" classNm="Projects"></NavButton>
+        <NavButton name="Experience" classNm="Study"></NavButton>
+        <NavButton name="Contact" classNm="Contact"></NavButton>
       </div>
     </div>
   );

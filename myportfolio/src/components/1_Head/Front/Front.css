@@ -72,4 +72,37 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@media screen and (max-width: 750px) {
+  .Front {
+    width: 100%;
+  }
+  .Front .myPdp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+  }
+  .Front .myPdp .greencircle {
+    width: 12px;
+    height: 12px;
+    bottom: 4px;
+    right: 14px;
+  }
+  .Front .myName {
+    font-size: 2em;
+  }
+  .Front .subTitle {
+    color: white;
+    font-weight: 600;
+    font-size: 0.8em;
+  }
+  .Front .subButtons {
+    width: 200px;
+  }
+  .Front .socialButtons {
+    width: 100%;
+    height: 60px;
+  }
+}
 /*# sourceMappingURL=Front.css.map */

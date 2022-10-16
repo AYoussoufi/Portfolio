@@ -14,7 +14,6 @@
   .container {
     width: 90%;
     display: flex;
-
     align-items: center;
     flex-direction: column;
     .tempodiv {
@@ -31,6 +30,66 @@
       color: rgba(255, 0, 0, 0.582);
       img {
         width: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .Experience {
+    .title {
+    }
+    .container {
+      .tempodiv {
+        font-size: 1.5em;
+        img {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .Experience {
+    .title {
+    }
+    .container {
+      .tempodiv {
+        font-size: 1.2em;
+        img {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Experience {
+    .title {
+    }
+    .container {
+      .tempodiv {
+        font-size: 1.2em;
+        img {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .Experience {
+    .title {
+    }
+    .container {
+      width: 300px;
+      .tempodiv {
+        height: 200px;
+        width: 300px;
+        font-size: 0.7em;
+        img {
+          width: 100px;
+        }
       }
     }
   }

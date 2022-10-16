@@ -20,9 +20,18 @@ export default function Front() {
         <SubBotton2 name="Hire Me"></SubBotton2>
       </div>
       <div className="socialButtons">
-        <SocialButton image={facebookImage}></SocialButton>
-        <SocialButton image={InstaImage}></SocialButton>
-        <SocialButton image={LinkdinImage}></SocialButton>
+        <SocialButton
+          image={facebookImage}
+          link="https://www.facebook.com/akram.youssefi.58"
+        ></SocialButton>
+        <SocialButton
+          image={InstaImage}
+          link="https://www.instagram.com/akram.youssoufi/"
+        ></SocialButton>
+        <SocialButton
+          image={LinkdinImage}
+          link="https://www.linkedin.com/in/akram-youssoufi-25259a212/"
+        ></SocialButton>
       </div>
     </div>
   );

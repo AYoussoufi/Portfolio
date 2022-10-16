@@ -35,4 +35,29 @@
   text-align: center;
   font-family: "Tajawal";
 }
+
+@media screen and (max-width: 750px) {
+  .handShake button {
+    border-radius: 50%;
+    border: none;
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    background-image: url("pdf-file.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #fab005;
+  }
+  .handShake span {
+    color: white;
+    width: 90px;
+    display: block;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Tajawal";
+    font-size: 0.9em;
+  }
+}
 /*# sourceMappingURL=SubBotton2.css.map */

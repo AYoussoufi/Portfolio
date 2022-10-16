@@ -63,4 +63,36 @@
 .Experience .container .tempodiv img {
   width: 200px;
 }
+
+@media screen and (max-width: 1300px) {
+  .Experience .container .tempodiv {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .Experience .container .tempodiv {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Experience .container .tempodiv {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .Experience .container {
+    width: 300px;
+  }
+  .Experience .container .tempodiv {
+    height: 200px;
+    width: 300px;
+    font-size: 0.7em;
+  }
+  .Experience .container .tempodiv img {
+    width: 100px;
+  }
+}
 /*# sourceMappingURL=Experience.css.map */

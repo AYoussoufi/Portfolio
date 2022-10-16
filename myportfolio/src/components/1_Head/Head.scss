@@ -10,3 +10,18 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 750px) {
+  .Head {
+    min-width: 350px;
+    height: 580px;
+    background: rgba(0, 0, 0, 0.336) url("Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
