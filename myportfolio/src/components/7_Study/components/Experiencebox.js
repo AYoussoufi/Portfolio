@@ -29,7 +29,9 @@ export default function Experiencebox(props) {
     >
       <div className="titlebox">
         <div style={{ fontSize: "1em" }}>{props.date}</div>
-        <div style={{ fontSize: "1.6em" }}>{props.entreprise}</div>
+        <div style={{ fontSize: "1.3em", width: "80%" }}>
+          {props.entreprise}
+        </div>
       </div>
       <div className="descrbox">
         <div className="titledsc">{props.title}</div>
