@@ -70,12 +70,14 @@
       height: 70%;
 
       .title {
+        font-size: 1.5em;
       }
       .imagebox {
         img {
         }
       }
       .textbox {
+        font-size: 0.9em;
         div {
           b {
           }
@@ -89,7 +91,7 @@
   .About {
     .aboutbox {
       width: 650px;
-      height: 400px;
+      height: 280px;
       .title {
         font-size: 25px;
       }

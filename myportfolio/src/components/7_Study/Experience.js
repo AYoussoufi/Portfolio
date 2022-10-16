@@ -20,7 +20,7 @@ export default function Experience() {
     {
       date: "JAN 2020-2021",
       entreprise: "Universite Hassan 1er",
-      title: "Construction Field",
+      title: "Application Design and Development Engineering",
       desc: "Training includes all the needs to build and develop a web application : Backend developement, DataBase, FrontEnd Developement, Digital Design, Software engineering, Technologies (GITHUB,CLOUD)",
     },
   ];
