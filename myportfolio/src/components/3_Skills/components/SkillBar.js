@@ -1,32 +1,30 @@
 import React from "react";
 import "./SkillBar.css";
+import $ from "jquery";
 
 import { useState, useRef } from "react";
 
 export default function SkillBar(props) {
-  const [percentage, setPercentage] = useState(0);
-
-  const barElement = useRef();
   const [barmove, setBarMove] = useState(false);
 
-  const barMove = () => {
-    if (barElement.current) {
-      if (window.scrollY >= 295) {
-        setBarMove(true);
-      } else {
-        setBarMove(false);
-      }
-    }
-  };
+  function sticky_relocate() {
+    const window_top = $(window).scrollTop();
+    const div_top = $(".boxskills").offset().top;
 
-  window.addEventListener("scroll", barMove);
+    if (div_top - window_top - $(window).innerHeight() <= -100) {
+      setBarMove(true);
+    } else {
+      setBarMove(false);
+    }
+  }
+
+  $(function () {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+  });
 
   return (
-    <div
-      className="SkillBar"
-      ref={barElement}
-      style={{ marginTop: barmove ? "0px" : "50px" }}
-    >
+    <div className="SkillBar" style={{ marginTop: barmove ? "0px" : "100px" }}>
       <div className="SkillName">
         <div>{props.name}</div>
         <div>{props.percentage + "%"}</div>

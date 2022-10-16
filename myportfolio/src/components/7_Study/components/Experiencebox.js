@@ -8,7 +8,7 @@ export default function Experiencebox(props) {
 
   function sticky_relocate() {
     const window_top = $(window).scrollTop();
-    const div_top = $(".Experience").offset().top;
+    const div_top = $(".Study").offset().top;
 
     if (div_top - window_top - $(window).innerHeight() <= 0) {
       setExperMove(true);
@@ -24,7 +24,7 @@ export default function Experiencebox(props) {
 
   return (
     <div
-      className="experiencebox"
+      className="studybox"
       style={{ marginTop: experMove ? "0px" : "100px" }}
     >
       <div className="titlebox">

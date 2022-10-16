@@ -3,28 +3,32 @@ import "./Projects.css";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import { useState, useRef } from "react";
+import $ from "jquery";
 
 export default function Projects(props) {
-  const project = useRef();
   const [projectMove, setProjectMove] = useState(false);
 
-  const projectMoveF = () => {
-    if (project.current) {
-      if (window.scrollY <= 1070) {
-        setProjectMove(true);
-      } else {
-        setProjectMove(false);
-      }
-    }
-  };
+  function sticky_relocate() {
+    const window_top = $(window).scrollTop();
+    const div_top = $(".Projects").offset().top;
 
-  window.addEventListener("scroll", projectMoveF);
+    if (div_top - window_top - $(window).innerHeight() <= 0) {
+      setProjectMove(false);
+    } else {
+      setProjectMove(true);
+    }
+  }
+
+  $(function () {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+  });
+
   return (
     <div className="Projects">
       <div className="title">Projects</div>
       <div
         className="container"
-        ref={project}
         style={{ paddingTop: projectMove ? "250px" : "0px" }}
       >
         <div className="projectholder">

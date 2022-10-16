@@ -1,4 +1,4 @@
-.experiencebox {
+.studybox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,12 +9,13 @@
           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-top: 20px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.experiencebox .titlebox {
+.studybox .titlebox {
   width: 20%;
   height: 100%;
-  background-color: #fab005;
+  background-color: #d72323;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,7 +34,7 @@
   text-align: center;
 }
 
-.experiencebox .descrbox {
+.studybox .descrbox {
   width: 80%;
   height: 100%;
   display: -webkit-box;
@@ -49,7 +50,7 @@
           flex-direction: column;
 }
 
-.experiencebox .descrbox .titledsc {
+.studybox .descrbox .titledsc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +62,7 @@
   height: 30%;
 }
 
-.experiencebox .descrbox .textdsc {
+.studybox .descrbox .textdsc {
   height: 70%;
 }
 /*# sourceMappingURL=experiencebox.css.map */
